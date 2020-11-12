@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Node Server Testing Challenge",
   "scripts": {
-    "test": "jest --watch --verbose"
+    "start": "node index.js",
+    "test": "DB_ENV=testing jest --watch --verbose"
   },
   "repository": {
     "type": "git",
